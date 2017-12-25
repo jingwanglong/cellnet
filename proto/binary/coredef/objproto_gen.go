@@ -3,7 +3,7 @@
 package coredef
 
 import (
-	"github.com/davyxu/cellnet"
+	"github.com/jingwanglong/cellnet"
 	"reflect"
 	"fmt"
 )

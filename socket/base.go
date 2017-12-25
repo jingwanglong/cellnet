@@ -1,7 +1,7 @@
 package socket
 
 import (
-	"github.com/davyxu/cellnet"
+	"github.com/jingwanglong/cellnet"
 	"net"
 )
 
@@ -73,7 +73,7 @@ func newSocketPeer(queue cellnet.EventQueue, sm cellnet.SessionManager) *socketP
 	// 设置默认读写链
 	self.SetReadWriteChain(func() *cellnet.HandlerChain {
 		return cellnet.NewHandlerChain(
-			cellnet.NewFixedLengthFrameReader(10),
+			cellnet.NewFixedLengthFrameReader(5),
 			NewPrivatePacketReader(),
 		)
 	}, func() *cellnet.HandlerChain {
