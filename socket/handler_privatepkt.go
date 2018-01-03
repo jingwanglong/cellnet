@@ -6,7 +6,6 @@ import (
 	"github.com/jingwanglong/cellnet"
 	"io"
 	"sync"
-	"fmt"
 )
 
 type PrivatePacketReader struct {
@@ -38,7 +37,6 @@ func (self *PrivatePacketReader) Call(ev *cellnet.Event) {
 		return
 	}
 	ev.MsgID = uint32(msgId)
-	fmt.Println("This msg id is ", ev.MsgID)
 
 	maxPacketSize := ev.Ses.FromPeer().(SocketOptions).MaxPacketSize()
 	// 封包太大

@@ -1,7 +1,7 @@
 package cellnet
 
 import (
-	"github.com/davyxu/golog"
+	"github.com/jingwanglong/golog"
 )
 
 var log *golog.Logger = golog.New("cellnet")

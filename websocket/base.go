@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/davyxu/cellnet"
+	"github.com/jingwanglong/cellnet"
 )
 
 // Peer间的共享数据

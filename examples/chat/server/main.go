@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/examples/chat/proto/chatproto"
-	"github.com/davyxu/cellnet/socket"
-	"github.com/davyxu/golog"
+	"github.com/jingwanglong/cellnet"
+	"github.com/jingwanglong/cellnet/examples/chat/proto/chatproto"
+	"github.com/jingwanglong/cellnet/socket"
+	"github.com/jingwanglong/golog"
 )
 
 var log = golog.New("main")

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/davyxu/cellnet"
-	jsongamedef "github.com/davyxu/cellnet/proto/json/gamedef" // json逻辑协议
-	"github.com/davyxu/cellnet/websocket"
-	"github.com/davyxu/golog"
+	"github.com/jingwanglong/cellnet"
+	jsongamedef "github.com/jingwanglong/cellnet/proto/json/gamedef" // json逻辑协议
+	"github.com/jingwanglong/cellnet/websocket"
+	"github.com/jingwanglong/golog"
 )
 
 var log = golog.New("main")

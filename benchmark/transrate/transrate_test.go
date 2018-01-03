@@ -1,13 +1,13 @@
 package transrate
 
 import (
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/benchmark"
-	_ "github.com/davyxu/cellnet/codec/pb" // 启用pb编码
-	"github.com/davyxu/cellnet/proto/pb/gamedef"
-	"github.com/davyxu/cellnet/socket"
-	"github.com/davyxu/cellnet/util"
-	"github.com/davyxu/golog"
+	"github.com/jingwanglong/cellnet"
+	"github.com/jingwanglong/cellnet/benchmark"
+	_ "github.com/jingwanglong/cellnet/codec/pb" // 启用pb编码
+	"github.com/jingwanglong/cellnet/proto/pb/gamedef"
+	"github.com/jingwanglong/cellnet/socket"
+	"github.com/jingwanglong/cellnet/util"
+	"github.com/jingwanglong/golog"
 	"testing"
 	"time"
 )

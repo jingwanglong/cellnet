@@ -5,8 +5,8 @@ import (
 	"path"
 	"reflect"
 
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/util"
+	"github.com/jingwanglong/cellnet"
+	"github.com/jingwanglong/cellnet/util"
 	"github.com/davyxu/gosproto"
 )
 

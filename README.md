@@ -1,12 +1,12 @@
 # cellnet
  [![Build Status][3]][4] [![Go Report Card][5]][6] [![MIT licensed][11]][12] [![GoDoc][1]][2]
 
-[1]: https://godoc.org/github.com/davyxu/cellnet?status.svg
-[2]: https://godoc.org/github.com/davyxu/cellnet
-[3]: https://travis-ci.org/davyxu/cellnet.svg?branch=v3
-[4]: https://travis-ci.org/davyxu/cellnet
-[5]: https://goreportcard.com/badge/github.com/davyxu/cellnet
-[6]: https://goreportcard.com/report/github.com/davyxu/cellnet
+[1]: https://godoc.org/github.com/jingwanglong/cellnet?status.svg
+[2]: https://godoc.org/github.com/jingwanglong/cellnet
+[3]: https://travis-ci.org/jingwanglong/cellnet.svg?branch=v3
+[4]: https://travis-ci.org/jingwanglong/cellnet
+[5]: https://goreportcard.com/badge/github.com/jingwanglong/cellnet
+[6]: https://goreportcard.com/report/github.com/jingwanglong/cellnet
 [11]: https://img.shields.io/badge/license-MIT-blue.svg
 [12]: LICENSE
 
@@ -73,7 +73,7 @@ TCP和html5的应用都可以直接使用cellnet迅速搭建服务器框架。
 
 # 第三方库依赖
 
-* github.com/davyxu/golog
+* github.com/jingwanglong/golog
 
 * github.com/davyxu/goobjfmt
 
@@ -90,7 +90,7 @@ TCP和html5的应用都可以直接使用cellnet迅速搭建服务器框架。
 # 获取+编译
 
 ```
-	go get -u -v github.com/davyxu/cellnet
+	go get -u -v github.com/jingwanglong/cellnet
 
 ```
 
@@ -104,7 +104,7 @@ TCP和html5的应用都可以直接使用cellnet迅速搭建服务器框架。
 
 # 性能测试
 
-命令行: go test -v github.com/davyxu/cellnet/benchmark/io
+命令行: go test -v github.com/jingwanglong/cellnet/benchmark/io
 
 平台: Windows 7 x64/CentOS 6.5 x64
 
@@ -528,7 +528,7 @@ Event是消息处理的上下文, 不建议缓存Event
     包体 | []byte | 包体内容, 长度为包体大小指定, 变长
 
     封包解析请参考:
-    https://github.com/davyxu/cellnet/blob/master/socket/handler_privatepkt.go
+    https://github.com/jingwanglong/cellnet/blob/master/socket/handler_privatepkt.go
 
 * 怎样定制私有tcp封包?
     使用cellnet.Peer下组合接口的HandlerChainManager.SetReadWriteChain进行设置, 写法如
@@ -560,9 +560,9 @@ Event是消息处理的上下文, 不建议缓存Event
 ![Handler全图](doc/handler.png)
 
 # 版本历史
-2017.8  v3版本 [详细请查看](https://github.com/davyxu/cellnet/blob/v3/CHANGES.md)
+2017.8  v3版本 [详细请查看](https://github.com/jingwanglong/cellnet/blob/v3/CHANGES.md)
 
-2017.1  v2版本 [详细请查看](https://github.com/davyxu/cellnet/blob/v2/CHANGES.md)
+2017.1  v2版本 [详细请查看](https://github.com/jingwanglong/cellnet/blob/v2/CHANGES.md)
 
 2015.8	v1版本
 
@@ -594,4 +594,4 @@ viwii(viwii@sina.cn), 提供一个可能造成死锁的bug
 
 知乎: http://www.zhihu.com/people/sunicdavy
 
-提交bug及特性: https://github.com/davyxu/cellnet/issues
+提交bug及特性: https://github.com/jingwanglong/cellnet/issues

@@ -3,8 +3,8 @@ package websocket
 import (
 	"net/url"
 
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/extend"
+	"github.com/jingwanglong/cellnet"
+	"github.com/jingwanglong/cellnet/extend"
 	"github.com/gorilla/websocket"
 )
 

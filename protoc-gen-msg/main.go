@@ -5,10 +5,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/davyxu/golog"
-	"github.com/davyxu/pbmeta"
-	pbprotos "github.com/davyxu/pbmeta/proto"
-	plugin "github.com/davyxu/pbmeta/proto/compiler"
+	"github.com/jingwanglong/golog"
+	"github.com/jingwanglong/pbmeta"
+	pbprotos "github.com/jingwanglong/pbmeta/proto"
+	plugin "github.com/jingwanglong/pbmeta/proto/compiler"
 	"github.com/golang/protobuf/proto"
 )
 

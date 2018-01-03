@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/davyxu/cellnet"
-	"github.com/davyxu/cellnet/timer"
+	"github.com/jingwanglong/cellnet"
+	"github.com/jingwanglong/cellnet/timer"
 )
 
 type QPSMeter struct {

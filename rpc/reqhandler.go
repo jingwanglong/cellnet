@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/davyxu/cellnet"
+import "github.com/jingwanglong/cellnet"
 
 // 请求方(rpc服务器）接收消息处理过程
 func buildRecvHandler(p cellnet.Peer, msgName string, tailHandler cellnet.EventHandler) (rpcID int64, err error) {

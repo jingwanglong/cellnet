@@ -6,7 +6,7 @@ package gamedef
 import (
 	"reflect"
 
-	"github.com/davyxu/cellnet/codec/sproto"
+	"github.com/jingwanglong/cellnet/codec/sproto"
 	"fmt"
 )
 
